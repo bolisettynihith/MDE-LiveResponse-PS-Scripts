@@ -18,6 +18,14 @@ The following scripts are included to help in IR investigations:
 
     + Deletes a scheduled task by Task Name
 
++ [DeleteService.ps1](DeleteService.ps1)
+
+    + Deletes a service 
+
++ [GetDriveInfo.ps1](GetDriveInfo.ps1)
+
+    + Displays the information about the drives.
+
 + [GetFileContent.ps1](GetFileContent.ps1)
 
     + Viewing a file contents
@@ -25,6 +33,10 @@ The following scripts are included to help in IR investigations:
 + [KillProcess.ps1](KillProcess.ps1)
 
     + Kills a process by process ID (PID)
+
++ [NetUser.ps1](NetUser.ps1)
+
+    + Retrieves user account infomation and changes the account status based on input
 
 As these above scripts are *unsigned*, make sure `Live Response unsigned script execution` is **Enabled**
 
